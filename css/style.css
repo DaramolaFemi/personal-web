@@ -1,0 +1,730 @@
+/* Title section */
+
+body{
+
+
+    background-color: #ff9100;
+    background-image: url(../images/3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: luminosity;
+    
+}
+.all{
+
+    width: 100%;
+}
+.home{
+     width: 100%;
+    filter: blur(5px);
+}
+
+#title{
+
+    overflow: hidden;
+}
+
+h1, h2, h3, h4, h5, h6{
+
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-weight: bolder;
+}
+p{
+
+    line-height: 1.5rem;
+    color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+
+}
+.social-icons{
+
+
+    width: 20px;
+   
+    margin: auto 20px 0px 0px;
+    
+   
+
+    
+}
+
+
+.contain{
+    
+    padding: 2% 2%;
+    margin-bottom: 3%;
+}
+
+
+.brand{
+
+    font-family: cursive;
+    
+}
+
+.nav-item{
+   margin-right: 20px;
+}
+
+/* This is my hire me and contact me section styling */
+
+.introText{
+    color: #ffffff;
+    font-weight: lighter;
+    font-family: cursive;
+
+}
+
+.introText2{
+    color: #ffffff;
+    font-weight: lighter;
+    font-family: cursive;
+    
+}
+
+.introText2 span{
+    border-bottom: 1px solid #ffffff;
+    display: inline-block;border-bottom: 1px solid #ffffff;
+    display: inline-block;
+}
+
+
+.contactMeDiv{
+    width: 35%;
+    padding: 30px 30px;
+    background-color: #351105;
+    font-family: unset;
+    margin: auto;
+    border-radius: 4%;
+    background-image: url(../images/5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   
+
+
+}
+
+
+.hireMeDiv{
+    width: 37%;
+    padding: 30px 30px;
+    margin-inline-start: 50%;
+    background-color: #d37203;
+    font-family: unset;
+    position: relative;
+    bottom: 40px;
+    display: inline-block;
+    border-radius: 4%;
+    background-image: url(../images/5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+.daramola{
+    width: 37%;
+    margin-inline-start: 2%;
+    position: absolute;
+    bottom: 160px;
+}
+
+.talent{
+ 
+
+    animation-name: talent;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+
+
+}
+
+
+@keyframes talent {
+    0%{opacity: 0;}
+    25%{opacity: 25%;}
+    50%{opacity: 50%;}
+    75%{opacity: 75%;}
+    100%{opacity: 100%;}
+}
+
+.daramsIntro{
+    position: relative;
+    font-size: 400%;
+    font-weight: bolder;
+    color: #ffffff;
+    width: 40%;
+    animation-name: daramsIntro;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes daramsIntro{
+    0%{left: -500px;}
+    25% {opacity: 25%;}
+    50% {opacity: 50%;}
+    75% {opacity: 75%;}
+    100%{left: 0px;}
+
+}
+
+.copywrite{
+    font-family: cursive;
+    font-size: 58%;
+    text-align: center;
+    margin-top: 15%;
+    color: #ffffff;
+    font-weight: bolder;
+    line-height: 1.5rem;
+}
+
+.copywrite span{
+    border-bottom: 1px solid #ffffff;
+    display: inline-block;border-bottom: 1px solid #ffffff;
+    display: inline-block;
+}
+.footerImg{
+
+    width: 10%;
+    position: absolute;
+    top: 116%;
+    right: 45%;
+    z-index: -1;
+    opacity: 30%;
+}
+/* Shapes styling section */
+
+.shape1{
+
+
+   
+    position: absolute;
+    bottom: 200px;
+    left: 10px;
+    width: 20%;
+    opacity: 28%;
+    animation: shape1a;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+
+.shape4a{
+     z-index: 1;
+    position: absolute;
+    top: 37px;
+    left: 5px;
+    width: 3%; 
+    animation: shape4a;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes shape4a{
+    0%{transform: rotate(50deg);}
+    25%{transform: rotate(100deg)}
+    50%{transform: rotate(200deg)}
+    75%{ transform: rotate(300deg)}
+    100%{transform: rotate(400deg)}
+
+}
+
+
+@keyframes shape1a{
+    0%{transform: rotate(50deg);}
+    25%{transform: rotate(100deg)}
+    50%{transform: rotate(200deg)}
+    75%{ transform: rotate(300deg)}
+    100%{transform: rotate(400deg)}
+
+}
+
+/* Testimonial section styling */
+
+.man1{
+    width: 10%;
+    border-radius: 100%;
+}
+.carousel{
+
+
+    width: 40%;
+    text-align: center;
+    background-color: #351105;
+    padding: 30px 30px;
+    border-radius: 4%;
+    position: relative;
+    bottom: 100%;
+    left: 30%;
+}
+
+em{
+
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+/* About me stlyling section */
+
+.hireMeText{
+    
+    padding: 30px 30px;
+    width: 46%;
+    height: 50%;
+    position: absolute;
+    left: 25%;
+    top: 45%;
+    background-color: #df950b;
+   
+}
+.new-div{
+    padding: 30px 30px;
+    height: 60%;
+    width: 30%;
+    position: relative;
+    left: 0%;
+    top: 45%;
+    background-color: #351105;
+}
+
+.about-femi{
+    text-align: center;
+}
+
+.hireMeText2{
+    z-index: 1;
+    padding: 30px 30px;
+    background-color: #d37203;
+    border-radius: 10px;
+    width: 40%;
+    position: relative;
+    left: 30%;
+    background-image: url(../images/5.png);
+    background-repeat: no-repeat;
+
+
+}
+
+
+.femi{
+    width: 40%;
+    position: relative;
+    top: 40%;
+    height: 20%;
+}
+
+.shape4a{
+    z-index: 1;
+   position: absolute;
+   top: 36px;
+   left: 1px;
+   width: 3%; 
+   animation: shape4a;
+   animation-duration: 4s;
+   animation-iteration-count: infinite;
+
+}
+
+.shape1a{
+
+
+   
+    position: absolute;
+    bottom: 200px;
+    left: 10px;
+    width: 20%;
+    opacity: 5%;
+    animation: shape1a;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.footerImgAbout{
+
+    width: 40%;
+    position: absolute;
+    top: 116%;
+    right: 30%;
+    z-index: -1;
+    opacity: 30%;
+}
+
+
+.brandAbout{
+
+    margin-left: 10px;
+}
+.copywriteAbout{
+
+    margin-bottom: 0px;
+    font-size: 58%;
+    text-align: center;
+    margin-top: 22%;
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+/*Mobile phone Responsive section */
+
+
+@media (max-width:375px){
+
+
+p{
+
+    width: 100%;
+}
+
+body{
+
+
+    overflow-x: hidden;
+    background-image: url(../images/3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+ 
+.daramola{
+    color: white;
+    width: 100%;
+    position: relative;
+    top:0px;
+    right:0%;
+    }
+
+
+.contactMeDiv{
+    width: 100%;
+    padding: 30px 30px;
+    font-family: unset;
+    border-radius: 0;
+    position: relative;
+    right: 0px;
+    top: 260px;
+    background-image: url(../images/5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+  
+}
+
+ 
+.hireMeDiv{
+            width: 100%; 
+            padding: 30px 30px;
+            background-color: #d37203;
+            font-family: unset;
+            border-radius: 0;
+            position: relative;
+            left: -172px;
+            top: 300px;
+            background-image: url(../images/5.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+          
+        
+ }
+
+     
+.daramsIntro{
+    position: relative;
+    font-size: 400%;
+    color: white;
+    width: 40%;
+
+    animation-name: daramsIntro;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+   
+.introText{
+    color: white;
+    font-weight: bold;
+    font-family: cursive;
+} 
+
+
+
+
+.copywrite{
+    font-size: 50%;
+    text-align: center;
+    margin-top: 20%;
+    position: relative;
+    top: 700px;
+}
+
+    
+.footerImg{
+
+    width: 50%;
+    position: absolute;
+    bottom: 200%;
+    right: 27%;
+    z-index: -1;
+    opacity: 45%;
+}
+.shape4a{
+
+    position: absolute;
+    right: 94%;
+    top: 4%;
+    width: 35px;
+
+}
+
+.hireMeText{
+    padding: 30px 30px;
+    background-color: #351105;
+    border-radius: 0%;
+    width: 100%;
+    position: relative;
+    top: 1000%;
+    background-image: url(../images/5.png);
+    background-repeat: no-repeat;
+
+}
+
+
+.hireMeText2{
+    padding: 30px 30px;
+    background-color: #d37203;
+    width: 100%;
+    position: relative;
+    bottom: 40%;
+    background-image: url(../images/5.png);
+    background-repeat: no-repeat;
+
+
+}
+
+
+
+
+}
+
+
+
+/* My tablet responsive */
+
+
+
+@media (max-width:1024px){
+
+
+    .all{
+
+        width: 100%;
+    }
+    p{
+    
+        width: 100%;
+    }
+    
+    
+    body{
+    
+    
+        overflow-x: hidden;
+        background-image: url(../images/3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+     
+    .daramola{
+        width: 100%;
+        position: relative;
+        top: 80px;
+        right: 0px;
+        left: 0px;
+        }
+    
+    
+    .contactMeDiv{
+        width: 100%;
+        padding: 30px 30px;
+        font-family: unset;
+        border-radius: 0;
+        position: relative;
+        right: 0px;
+        top: 100px;
+      
+    }
+    
+     
+    .hireMeDiv{
+                width: 100%; 
+                padding: 30px 30px;
+                background-color: #d37203;
+                font-family: unset;
+                border-radius: 0;
+                position: relative;
+                right: 370px;
+                top: 100px;
+                
+    
+            
+     }
+    
+             
+        
+    .daramsIntro{
+    
+        font-size: 300%;
+        color: #ffffff;
+        width: 40%;
+
+    animation-name: daramsIntro;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    }
+    
+    
+       
+    .introText{
+        color: white;
+        font-weight: bold;
+        font-family: cursive;
+    } 
+    
+    
+    
+    
+    .copywrite{
+        font-size: 50%;
+        text-align: center;
+        margin-top: 20%;
+        position: relative;
+        top: 100px;
+    }
+    
+    
+    
+    
+    .footerImg{
+
+        width: 50%;
+        position: absolute;
+        top: 100%;
+        right: 27%;
+        z-index: -1;
+        opacity: 45%;
+    }
+
+}
+
+    
+/* pixel2L responsive section*/
+
+
+
+@media (max-width:411px){
+
+
+    .all{
+
+        width: 100%;
+    }
+    p{
+    
+        width: 100%;
+    }
+    
+    
+    body{
+    
+    
+        overflow-x: hidden;
+        background-image: url(../images/3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+     
+    .daramola{
+        width: 100%;
+        position: relative;
+        top: 80px;
+        right: 0px;
+        left: 0px;
+        }
+    
+    
+    .contactMeDiv{
+        width: 100%;
+        padding: 30px 30px;
+        font-family: unset;
+        border-radius: 0;
+        position: relative;
+        right: 0px;
+        top: 100px;
+      
+    }
+    
+     
+    .hireMeDiv{
+                width: 100%; 
+                padding: 30px 30px;
+                background-color: #d37203;
+                font-family: unset;
+                border-radius: 0;
+                position: relative;
+                right: 190px;
+                top: 100px;
+                
+    
+            
+     }
+    
+             
+        
+    .daramsIntro{
+    
+        font-size: 300%;
+        color: #ffffff;
+        width: 40%;
+
+    animation-name: daramsIntro;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    }
+    
+    
+       
+    .introText{
+        color: white;
+        font-weight: bold;
+        font-family: cursive;
+    } 
+    
+    
+    
+    
+    .copywrite{
+        font-size: 50%;
+        text-align: center;
+        margin-top: 20%;
+        position: relative;
+        top: 100px;
+    }
+    
+    
+    
+    
+    .footerImg{
+
+        width: 50%;
+        position: absolute;
+        top: 100%;
+        right: 27%;
+        z-index: -1;
+        opacity: 45%;
+    }
+}
